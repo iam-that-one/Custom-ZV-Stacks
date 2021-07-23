@@ -23,7 +23,7 @@ struct CustomVStack<Content: View> : View{
             content
                 .frame(width: 100, height: 20)
                 .padding(10)
-                .background(RoundedRectangle(cornerRadius: 5).fill(Color.yellow))
+                .background(RoundedRectangle(cornerRadius: 5).fill(Color.green))
                 .foregroundColor(FG_C)
                 .font(FONT)
                 .shadow(color: .black,radius: 5)
